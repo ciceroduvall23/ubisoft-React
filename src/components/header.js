@@ -38,7 +38,7 @@ export default function App() {
       <MDBCarouselInner>
         <MDBCarouselItem className='active'>
 
-     
+       
           <MDBCarouselElement src='https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2QxxVmr7ec6oUjiBOmLiZ2/e4d7b144e01bcfacd2d702384ac2839a/ubi-homescreen-rabbids_party-bg-desktop.jpg' alt='...' />
           <MDBCarouselCaption className='buttom-header'>
             <h3>A TEMPORADA 2 DE RIDERS REPUBLIC ESTÁ NO AR!</h3>
