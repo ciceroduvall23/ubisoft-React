@@ -418,3 +418,52 @@ max-width: 1200px;
     transform: rotate(360deg);
   }
 }
+
+.button-slide a{
+  display: flex;
+    justify-content: center;
+    background-color: #d80388;
+    border: 2px solid #d80388;
+    color: #fff;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    height: 54px;
+    width: auto;
+    min-width: 100px;
+    max-width: 300px;
+    left: auto;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 15px;
+    font-size: .9375rem;
+    line-height: 15px;
+    line-height: .9375rem;
+    letter-spacing: .1px;
+    letter-spacing: .1rem;
+    font-family: Ubisoft Sans Bold,sans-serif;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 250px;
+    
+}
+
+.button-slide :hover
+{
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  color: rgb(0, 0, 0);
+  transition: all 0.5s ease-in;
+  transition-delay: 0.3s;
+  transition: 500ms linear; 
+
+}
+
+

@@ -7,7 +7,7 @@ import Slide from './components/slide'
 
 export default function App() {
   return (
-   <div >
+   <div>
      <Sidebar />
      <div className='divcontent'>
       <h2></h2>
@@ -21,6 +21,11 @@ export default function App() {
 </h3>
           </div>
     <Slide/>
+
+    <div className='button-slide'>
+    <a href='https://www.ubisoft.com/pt-br/'>Ver todos os jogos</a>
+    </div>
+
    </div>
     
   );
