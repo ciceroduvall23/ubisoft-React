@@ -1,10 +1,9 @@
-.App {
-  text-align: center;
+body{
+background-color: #fff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  padding: 0;
+  margin: 0;
 }
 .active
 {
@@ -385,8 +384,14 @@ max-width: 1200px;
 {
 
   font-size: 1.0em;
+ 
 }
 
+.content-slide
+{
+  height: 40em;
+  background-color: transparent;
+}
 
 /*------card slide -----*/
 @media (prefers-reduced-motion: no-preference) {
@@ -452,6 +457,7 @@ max-width: 1200px;
     position: relative;
     margin: 0 auto;
     width: 250px;
+    margin-bottom: 150px;
     
 }
 
@@ -466,4 +472,23 @@ max-width: 1200px;
 
 }
 
+.news-one{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1473px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+
+@media only screen and (min-width: 1024px){
+.news-one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+.news-one img{
+ max-width: 100%;
+}
